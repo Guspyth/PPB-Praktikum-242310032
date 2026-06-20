@@ -17,8 +17,16 @@
 
 // latihan/tugas 3
 
+// import { Redirect } from "expo-router";
+
+// export default function Index() {
+//   return <Redirect href="/module-latihan/latihan3" />;
+// }
+
+// latihan/tugas 4
+
 import { Redirect } from "expo-router";
 
 export default function Index() {
-  return <Redirect href="/module-latihan/latihan3" />;
+  return <Redirect href="/module-latihan/latihan4" />;
 }
