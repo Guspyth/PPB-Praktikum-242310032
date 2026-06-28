@@ -33,8 +33,23 @@
 
 // latihan/tugas 5
 
-import { Redirect } from "expo-router";
+// import { Redirect } from "expo-router";
+
+// export default function Index() {
+//   return <Redirect href="/module-latihan/latihan5" />;
+// }
+
+// latihan/tugas 6
+import { Link } from "expo-router";
+import { Button, Text, View } from "react-native";
 
 export default function Index() {
-  return <Redirect href="/module-latihan/latihan5" />;
+  return (
+    <View>
+      <Text>Landing Page</Text>
+      <Link href={"/main-apps"} push asChild>
+        <Button title="Get Started" />
+      </Link>
+    </View>
+  );
 }
